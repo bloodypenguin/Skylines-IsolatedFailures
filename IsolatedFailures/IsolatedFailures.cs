@@ -18,6 +18,8 @@ namespace IsolatedFailures
             {
                 if (!bootstrapped)
                 {
+                    UIScrollbarFix.Init();
+
                     Bootstrap();
                     bootstrapped = true;
                 }
