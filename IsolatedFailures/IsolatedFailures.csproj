@@ -29,7 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Detours.cs" />
     <Compile Include="IsolatedFailures.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
